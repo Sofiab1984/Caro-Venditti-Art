@@ -1,0 +1,16 @@
+Notas: 
+No se puede usar mayuscula
+No se puede usar caracteres especiales ej: Ñ ,ni espacios, acentos ni signos de exclamacion
+
+<!----><!--asi se escriben notas en html-->
+etiquetas letra azul 
+propiedades celeste
+valor rojo
+Etiquetas principales 
+header: contiene nuestra navegacion, logo y titulo
+main: el contenido principal de nuestro html
+footer: contiene derechos reservados y redes sociales
+head <!-- solo el titulo del buscador -->
+body <!-- muestro todo el contenido -->
+Un solo h1 por html - solo uno es el jerarquico
+Etiquetas multimedia: img, video, iframe
