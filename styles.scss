@@ -1,0 +1,10 @@
+$primary-color: #f8f8f8;
+
+body{
+    background-color: $primary;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
