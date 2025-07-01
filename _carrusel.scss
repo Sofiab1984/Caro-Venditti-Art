@@ -1,0 +1,13 @@
+img {
+  width: 100%;        // Ocupa el ancho del contenedor
+  max-width: 150px;   // No más grande de 400px
+  height: auto;       // Mantiene proporción
+  object-fit: cover;  // Ajusta recorte para que se vea bien sin deformar
+  border-radius: 0.5rem;  // Si querés bordes redondeados
+}
+.carousel img {
+  max-height: 150px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: cover;
+}

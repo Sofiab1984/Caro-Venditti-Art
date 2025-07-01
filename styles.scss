@@ -1,10 +1,4 @@
-$primary-color: #f8f8f8;
+@import "contacto";
+@import "carrusel";
 
-body{
-    background-color: $primary;
-}
-
-@mixin border-radius($radius) {
-    border-radius: $radius;
-}
 

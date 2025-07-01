@@ -1,0 +1,57 @@
+// _formulario.scss o en tu main.scss si es un archivo chico
+
+#contacto {
+  .formulario {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+    .form-label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-control {
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: $color-principal;
+        box-shadow: 0 0 0 0.2rem rgba($color-principal, 0.2);
+      }
+
+      // Para que todos los inputs tengan el mismo alto
+      height: 48px;
+
+      // Excepto textarea
+      &:not(textarea) {
+        resize: none;
+      }
+    }
+
+    textarea.form-control {
+      height: auto;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.75rem 2rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: $color-principal;
+      border: none;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken($color-principal, 10%);
+      }
+    }
+  }
+}
